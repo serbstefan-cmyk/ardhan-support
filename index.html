@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ardhan — Support</title>
+<style>
+  :root {
+    --bg: #fbfaf7; --text: #1f1d1a; --muted: #5d5850; --rule: #e2ddd3; --link: #1d5fa8;
+    --head: #2b2620; --card: #f1ede5;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #16140f; --text: #ebe6dc; --muted: #b3ab9d; --rule: #3a352c; --link: #8cc0ff;
+      --head: #f3ecdf; --card: #221f18;
+    }
+  }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", Arial, sans-serif;
+  }
+  main { max-width: 44rem; margin: 0 auto; padding: 1.5rem 1rem 3rem; }
+  h1 { font-size: 1.8rem; line-height: 1.2; margin: 0.5rem 0 0.25rem; color: var(--head); }
+  h2 { font-size: 1.2rem; margin: 2rem 0 0.5rem; padding-top: 1rem; border-top: 1px solid var(--rule);
+       color: var(--head); }
+  p, li { overflow-wrap: anywhere; }
+  ul { padding-left: 1.25rem; }
+  li { margin: 0.35rem 0; }
+  a { color: var(--link); }
+  code { font-family: ui-monospace, Consolas, Menlo, monospace; font-size: 0.92em; }
+  .lead { color: var(--muted); margin-top: 0; }
+  .contact { background: var(--card); border: 1px solid var(--rule); border-radius: 10px;
+             padding: 1rem 1.1rem; margin: 1.25rem 0; }
+  .contact p { margin: 0.2rem 0; }
+  .mail { font-size: 1.2rem; font-weight: 600; }
+  footer { margin-top: 2.5rem; color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+<h1>Ardhan — Support</h1>
+<p class="lead">Ardhan is a single-player roguelike deck-building card game made by one independent
+  developer.</p>
+
+<div class="contact">
+  <p>Questions, bug reports and ideas:</p>
+  <p class="mail"><a href="mailto:contact@unitechdigital.net">contact@unitechdigital.net</a></p>
+  <p>Please write in English if you can. Every message is read.</p>
+</div>
+
+<h2>What to put in your message</h2>
+<ul>
+  <li>Where you play: Android, iPhone or iPad, Windows or Linux, and which store you got the game
+    from.</li>
+  <li>The game version: it is shown at the bottom-right of the title screen.</li>
+  <li>Your device or computer model.</li>
+  <li>What you did, what you expected and what happened. A screenshot helps a lot.</li>
+  <li>On Windows or Linux, if the game crashed: attach the log file <code>godot.log</code> from the
+    <code>logs</code> folder (see "Where your progress is saved" below).</li>
+</ul>
+
+<h2>Purchases and refunds</h2>
+<p>Payments and refunds are handled by the store where you paid. I cannot see your payment details and
+  cannot refund a store purchase myself.</p>
+<ul>
+  <li>Google Play: <a href="https://support.google.com/googleplay/answer/2479637">Google Play refund
+    help</a>. In the game on Android, the shop has a "Restore purchases" button if an item you bought
+    is missing.</li>
+  <li>App Store: <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a></li>
+  <li>Steam: <a href="https://help.steampowered.com">help.steampowered.com</a></li>
+  <li>Microsoft Store: <a
+    href="https://support.microsoft.com/en-us/accounts-billing/subscriptions/get-a-refund-for-apps-and-games-purchased-from-microsoft-store"
+    >Microsoft Store refund help</a></li>
+</ul>
+
+<h2>Your progress</h2>
+<p>There is no account. Your progress is saved only on your device, so uninstalling the game on a phone
+  or tablet deletes it. To keep it safe: open Settings, go to "Save backup", press "Copy save code" and
+  keep the code somewhere private. "Import save code" puts it back later.</p>
+
+<h2>Where your progress is saved (Windows and Linux)</h2>
+<ul>
+  <li>Windows (Steam): <code>%APPDATA%\Godot\app_userdata\Ardhan\</code></li>
+  <li>Windows (Microsoft Store): the Ardhan folder inside <code>%LOCALAPPDATA%\Packages\</code>, then
+    <code>LocalCache\Roaming\Godot\app_userdata\Ardhan\</code></li>
+  <li>Linux and Steam Deck: <code>~/.local/share/Godot/app_userdata/Ardhan/</code></li>
+</ul>
+<p>The save is <code>save.json</code>; the log is in the <code>logs</code> folder next to it. On Steam,
+  uninstalling the game does not delete this folder. If Steam Cloud is on, Steam may also keep a copy
+  in your Steam account.</p>
+
+<h2>Optional downloads</h2>
+<p>Some content (such as the story cinematics) is an optional download. If a download fails, check your
+  internet connection and try again later from Settings. The game stays fully playable without it.</p>
+
+<h2>Privacy</h2>
+<p>No account, no ads, no analytics, no tracking. Read the full <a href="privacy.html">privacy
+  policy</a>.</p>
+
+<footer>
+  <p>Ardhan © 2026 Ștefan Mihai Șerb. All rights reserved.<br>Last updated: 29 September 2026</p>
+</footer>
+</main>
+</body>
+</html>
