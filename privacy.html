@@ -1,3 +1,6 @@
+<!-- PRIVACY POLICY for Ardhan: the page you publish as https://serbstefan-cmyk.github.io/ardhan-support/privacy.html (same text as PRIVACY_POLICY.md) -->
+<!-- Store: all four stores (Google Play, App Store, Steam, Microsoft Store), all platforms -->
+<!-- kit of 2026-09-30 for Ardhan v0.7.55 (build 262). Fill every [PLACEHOLDER] first: see HOSTING.txt -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -37,7 +40,7 @@
 <body>
 <main>
 <h1>Ardhan — Privacy Policy</h1>
-<p class="updated">Last updated: 29 September 2026</p>
+<p class="updated">Last updated: 30 September 2026</p>
 <h2 id="1-who-i-am">1. Who I am</h2>
 <p>Ardhan is a single-player card game made and published by <strong>Ștefan Mihai Șerb</strong>, a private
   individual living in Romania ("I", "me"). For the small amount of personal data described in this
@@ -52,7 +55,8 @@
   <li>Your progress is saved on your device. The game has no cloud save of its own (for Steam Cloud, see
     section 4).</li>
   <li>The game goes online only to download optional content from GitHub, to check for updates of
-    content you already downloaded, and, on Android only, to talk to Google Play for purchases.</li>
+    content you already downloaded, and to talk to the store you got the game from (Google Play, Steam,
+    the App Store or the Microsoft Store) about the game's optional in-app purchases.</li>
   <li>The game sends me nothing. I only receive what you send me yourself (for example an e-mail) and
     the sales reports the stores give me.</li>
 </ul>
@@ -64,14 +68,23 @@
   <li>Windows and Linux, through Steam;</li>
   <li>Windows, through the Microsoft Store.</li>
 </ul>
-<p>The same rules apply on every platform. The few differences are named below.</p>
+<p>The game is free on every one of them, with the same optional in-app purchases, and each store's own
+  payment system handles the payment (section 6). The same rules apply on every platform. The few
+  differences are named below.</p>
 <h2 id="4-what-the-game-keeps-on-your-device">4. What the game keeps on your device</h2>
 <p>The game stores these things on your device only:</p>
 <ul>
   <li><strong>Your save</strong>: runs in progress, your collection, shards and gold, unlocked items,
     achievements, statistics, run history and your settings (language, volume and similar choices).</li>
-  <li><strong>On Android only</strong>: a list of Google Play purchase tokens that were already
-    delivered, so that a purchase is never granted twice.</li>
+  <li><strong>A list of the purchases already delivered</strong>, so that a purchase is never granted
+    twice. For each delivered purchase the game keeps the identifier the store gave it: on Google Play a
+    purchase token, on Steam the number of the item in your Steam inventory, on the App Store the
+    original transaction identifier, on the Microsoft Store the add-on's Store identifier. None of these
+    names you; each names one sale. The game keeps the last 256 of them.</li>
+  <li><strong>On the Microsoft Store only</strong>: for packs of shards, gold or deck slots, a tracking
+    number that the game itself makes up for each pack you buy or redeem, kept in a small file
+    (msstore_packs.json) next to the save until the game has told the Microsoft Store that the pack was
+    delivered. It is never part of a save code.</li>
   <li><strong>Optional packs</strong> you downloaded (see section 5).</li>
   <li><strong>Share cards</strong> you saved: a picture of a finished run with the faction, the result,
     the act reached, the run's seed and one line of text. It contains nothing about you or your device.
@@ -91,9 +104,11 @@
   account. Valve runs that service under its own privacy policy (section 6); I cannot see those copies.
   You can switch Steam Cloud off in Steam.</p>
 <p><strong>Deleting your data.</strong> On Android, iPhone and iPad, uninstalling the game deletes all
-  of it. For the Microsoft Store version, Windows normally removes the game's data when you uninstall
-  it. On Windows and Linux through Steam, the save folder stays on your computer after you uninstall;
-  you can delete it yourself (a Steam Cloud copy, if any, is managed in Steam):</p>
+  of it. For the Microsoft Store version, Windows normally removes the game's data, the pack tracking
+  file included, when you uninstall it. On Windows and Linux through Steam, the save folder stays on
+  your computer after you uninstall; you can delete it yourself (a Steam Cloud copy, if any, is managed
+  in Steam). What you bought stays recorded with the store (section 6), so it comes back after a
+  reinstall.</p>
 <ul>
   <li>Windows: %APPDATA%\Godot\app_userdata\Ardhan</li>
   <li>Linux: ~/.local/share/Godot/app_userdata/Ardhan</li>
@@ -126,38 +141,64 @@
 </ul>
 <p>It never starts a download of a pack you did not choose. If you have never installed a pack, the game
   makes none of these requests. You can avoid them at any time by playing offline.</p>
-<h3 id="5-3-google-play-purchases-android-only">5.3 Google Play purchases (Android only)</h3>
-<p>The Android version contains Google's Play Billing library. When the title screen opens, the game
-  asks Google Play, through the Play Store app on your device, for the current prices of its products
-  and for the purchases you made in this game, so that anything you paid for is delivered. When you buy
-  something, Google Play handles the whole payment. The iPhone, iPad, Windows and Linux versions make no
-  purchase requests at all.</p>
+<h3 id="5-3-purchases-through-the-store-you-got-the-game-from">5.3 Purchases through the store you got the game from</h3>
+<p>Every version of the game contains the purchase component of its own store, and talks to that store
+  and to no other:</p>
+<ul>
+  <li><strong>Google Play (Android)</strong>: Google's Play Billing library, through the Play Store app
+    on your device.</li>
+  <li><strong>Steam (Windows, Linux)</strong>: the Steamworks library, through the Steam client running
+    on your computer. The game must be started through Steam; if it is not, Steam starts it again.</li>
+  <li><strong>App Store (iPhone, iPad)</strong>: Apple's StoreKit, through iOS.</li>
+  <li><strong>Microsoft Store (Windows)</strong>: the Windows Store services, through the Microsoft
+    Store on your PC.</li>
+</ul>
+<p>The game asks the store for the current prices of its products and for the purchases you made in this
+  game with your store account, so that anything you paid for is delivered: when the title screen or
+  the shop opens, when the game comes back to the front, and when you press "Restore purchases" in the
+  shop. When you buy something, the store handles the whole payment in its own purchase sheet or
+  overlay. If the store cannot be reached (for example Steam is not running, or you are offline), the
+  shop shows a "store offline" notice, every paid item is disabled and nothing is bought or given away;
+  the rest of the game works as usual.</p>
 <h3 id="5-4-what-these-connections-carry">5.4 What these connections carry</h3>
 <p>In every case the game sends no name, e-mail address, account, advertising identifier, location,
-  contact list or any identifier made by me. GitHub and Google receive what any internet request
+  contact list or any identifier made by me. GitHub and the store receive what any internet request
   carries: your IP address, the time, the file or service asked for, and basic technical information
-  about the app and the device. On Android, Google's Play Billing library inside the game may also send
-  Google technical information about how the purchase features work. GitHub handles this under the <a
+  about the app and the device. The store's purchase component inside the game may also send the store
+  technical information about how the purchase features work. GitHub handles this under the <a
   href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub
-  General Privacy Statement</a>, and Google under the <a
-  href="https://policies.google.com/privacy">Google Privacy Policy</a>. I do not receive your IP address
-  or any of these details.</p>
+  General Privacy Statement</a>, and each store under its own policy (section 6). I do not receive your
+  IP address or any of these details.</p>
 <h2 id="6-purchases-and-the-stores">6. Purchases and the stores</h2>
 <ul>
-  <li><strong>Google Play (Android)</strong>: the game offers optional in-app purchases. Google
-    processes the payment. I never see your card or bank details. Google gives the game only the details
-    of the purchase (such as the product, an order number and a purchase token), and the game unlocks
-    the item in your save on your device.</li>
-  <li><strong>App Store, Steam and Microsoft Store</strong>: the game sells nothing inside the game. If
-    the game itself has a price on one of these stores, the store handles that purchase.</li>
+  <li><strong>The same optional in-app purchases on every store</strong>: hero skins, faction looks, card
+    backs, factions, bundles, and packs of shards, gold and deck slots. The store processes the payment
+    in its own payment system: Google Play Billing on Android, the Steam Wallet on Steam, Apple's in-app
+    purchase on iPhone and iPad, Microsoft Store add-ons on Windows through the Microsoft Store. I never
+    see your card or bank details. The store gives the game only the details of the purchase (such as
+    the product, an order or transaction identifier and the state of the purchase), and the game
+    unlocks the item in your save on your device.</li>
+  <li><strong>Restore.</strong> Each store gives back what your account on that store bought. The game
+    asks the store silently at start and when it comes back to the front; the shop's "Restore
+    purchases" button asks again, and on the App Store it may ask you to sign in to your Apple Account.
+    On Steam, the one-time items you bought are also visible in your Steam inventory.</li>
+  <li><strong>Items do not move between stores.</strong> What you bought with money stays with the store
+    account that bought it, and comes back on any device signed in with that account. A save code
+    (Settings) carries your progress, shards, gold, deck slots and everything bought with shards to
+    another device or store, but drops items that only money buys; the store then restores the ones
+    your account there owns.</li>
+  <li><strong>Refunds</strong> are requested from the store where you paid; each store decides under its
+    own rules. If Apple refunds a one-time item and reports it revoked, or if the Microsoft Store
+    reports that a one-time item's licence is no longer active, the game takes that item back the next
+    time it checks. On Google Play and Steam the game takes nothing back by itself. A pack of shards,
+    gold or deck slots that has already been delivered is never taken back.</li>
   <li>Each store keeps its own record of what you bought, and the store app on your device (Play Store,
-    App Store, Steam, Microsoft Store) may collect data about how you use it, including play time. That
+    Steam, App Store, Microsoft Store) may collect data about how you use it, including play time. That
     is covered by the store's own policy, not by this one: <a
     href="https://policies.google.com/privacy">Google</a>, <a
     href="https://www.apple.com/legal/privacy/">Apple</a>, <a
     href="https://store.steampowered.com/privacy_agreement/">Valve (Steam)</a>, <a
     href="https://www.microsoft.com/privacy/privacystatement">Microsoft</a>.</li>
-  <li>Refunds are requested from the store where you paid.</li>
 </ul>
 <h2 id="7-personal-data-i-do-receive">7. Personal data I do receive</h2>
 <ul>
@@ -233,9 +274,9 @@
   authority of the EU country where you live or work.</p>
 <h2 id="14-changes-to-this-policy">14. Changes to this policy</h2>
 <p>If the game's handling of data changes (for example a cloud save, an online mode, analytics,
-  advertising, or purchases on another store), I will update this page before that version is released,
-  change the "Last updated" date at the top, and mention the change in the game's notes. The address of
-  this page stays the same.</p>
+  advertising, or a way of paying other than the four stores' own payment systems), I will update this
+  page before that version is released, change the "Last updated" date at the top, and mention the
+  change in the game's notes. The address of this page stays the same.</p>
 <h2 id="15-contact">15. Contact</h2>
 <p>Ștefan Mihai Șerb, Romania. E-mail: <a href="mailto:contact@unitechdigital.net">contact@unitechdigital.net</a></p>
 
