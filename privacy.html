@@ -40,9 +40,9 @@
 <body>
 <main>
 <h1>Ardhan — Privacy Policy</h1>
-<p class="updated">Last updated: 30 September 2026</p>
+<p class="updated">Last updated: 4 November 2026</p>
 <h2 id="1-who-i-am">1. Who I am</h2>
-<p>Ardhan is a single-player card game made and published by <strong>Ștefan Mihai Șerb</strong>, a private
+<p>Ardhan is a card game, played mostly on your own, made and published by <strong>Ștefan Mihai Șerb</strong>, a private
   individual living in Romania ("I", "me"). For the small amount of personal data described in this
   policy, I am the data controller under the EU General Data Protection Regulation (GDPR).</p>
 <ul>
@@ -50,15 +50,16 @@
 </ul>
 <h2 id="2-the-short-version">2. The short version</h2>
 <ul>
-  <li>There is no account, no login, no advertising, no analytics, no tracking and no crash reporting in
-    the game.</li>
+  <li>There is no login, no advertising, no analytics, no tracking and no crash reporting in the game.</li>
   <li>Your progress is saved on your device. The game has no cloud save of its own (for Steam Cloud, see
     section 4).</li>
   <li>The game goes online only to download optional content from GitHub, to check for updates of
     content you already downloaded, and to talk to the store you got the game from (Google Play, Steam,
-    the App Store or the Microsoft Store) about the game's optional in-app purchases.</li>
-  <li>The game sends me nothing. I only receive what you send me yourself (for example an e-mail) and
-    the sales reports the stores give me.</li>
+    the App Store or the Microsoft Store) about the game's optional in-app purchases. If you choose to
+    play the optional Arena, it also talks to the Arena server (section 5.5).</li>
+  <li>Outside the Arena, the game sends me nothing. I only receive what you send me yourself (for
+    example an e-mail), the sales reports the stores give me, and, if you play the Arena, your Arena
+    data (section 5.5).</li>
 </ul>
 <h2 id="3-where-this-policy-applies">3. Where this policy applies</h2>
 <p>This policy covers the game Ardhan everywhere I publish it:</p>
@@ -169,6 +170,27 @@
   href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub
   General Privacy Statement</a>, and each store under its own policy (section 6). I do not receive your
   IP address or any of these details.</p>
+<h3 id="5-5-the-arena">5.5 The Arena (optional)</h3>
+<p>The Arena lets you battle decks that other players published, and lets them battle yours. It is
+  optional: nothing below happens until you open the Arena. When you first do, the game creates an Arena
+  player for you on my Arena server, which runs on Cloudflare (Workers and D1). The server stores:</p>
+<ul>
+  <li>a random 6-character player ID, the Arena name you choose (3 to 16 characters, filtered) and a
+    secret key; the server keeps only a scrambled (hashed) copy of the key, and the key itself stays in
+    your save and in your save backup code, so keep that code private;</li>
+  <li>the deck you publish, if you publish one: its faction, hero level, deck name, card list, the game
+    version and the time;</li>
+  <li>your Arena matches: who played whom, the result, the number of turns, the faction, the game
+    version and the time; your win streaks and Legend ribbons; and the Arena rewards waiting for you
+    and when you claimed them.</li>
+</ul>
+<p>Other players see your Arena name, your ID, your published deck and your streaks (for example on the
+  leaderboard or as their opponent). To slow down abuse, the server also counts requests per IP address
+  for one minute; those counters are deleted when the minute is over. Cloudflare handles each request
+  for me and, like any web service, sees your IP address and basic technical details of the request.
+  The Arena asks for no e-mail, no real name and no store account.</p>
+<p>You can unpublish your deck in the Arena at any time. To have your whole Arena player deleted, e-mail
+  me your Arena ID and I will delete it.</p>
 <h2 id="6-purchases-and-the-stores">6. Purchases and the stores</h2>
 <ul>
   <li><strong>The same optional in-app purchases on every store</strong>: hero skins, faction looks, card
@@ -216,6 +238,10 @@
     who agreed to share them with developers. I use them to improve the game. I do not try to identify
     anyone from them.</li>
 </ul>
+<ul>
+  <li><strong>Arena data.</strong> If you play the Arena, the data in section 5.5. I use it only to run
+    the Arena.</li>
+</ul>
 <p>I do not sell personal data, I do not use it for advertising, and I make no automated decisions or
   profiles about anyone.</p>
 <h2 id="8-why-this-is-allowed-legal-bases-under-the-gdpr">8. Why this is allowed (legal bases under the
@@ -226,6 +252,9 @@
     6(1)(b)).</li>
   <li>Keeping store reports for accounting and tax: a legal obligation (Article 6(1)(c)).</li>
   <li>Making the downloads you ask for: providing the content you requested (Article 6(1)(b)).</li>
+  <li>Running the Arena when you choose to play it: providing the feature you asked for (Article
+    6(1)(b)); the per-minute counters against abuse: my legitimate interest in keeping the Arena working
+    and safe (Article 6(1)(f)).</li>
   <li>Update checks for packs you installed: my legitimate interest in keeping the content you chose
     complete and working (Article 6(1)(f)). You can object, or simply play offline.</li>
 </ul>
@@ -235,10 +264,13 @@
     unless a message must be kept longer for a legal claim or a tax record (for example about a
     purchase).</li>
   <li>Store reports: as long as Romanian tax and accounting law requires.</li>
+  <li>Arena data: while the Arena runs, or until you ask me to delete your Arena player; the per-minute
+    counters: one minute.</li>
   <li>Everything on your device: until you delete it (see section 4).</li>
 </ul>
 <h2 id="10-who-else-is-involved">10. Who else is involved</h2>
-<p>I do not share personal data with anyone, except that my e-mail provider stores my e-mails for me.
+<p>I do not share personal data with anyone, except that my e-mail provider stores my e-mails for me and
+  Cloudflare runs the Arena server for me (section 5.5).
   The stores and GitHub act on their own account, under their own privacy policies (sections 5 and 6).
   Some of them, and possibly my e-mail provider, are based in, or process data in, the United States;
   their policies explain how they protect data sent outside the European Union.</p>
