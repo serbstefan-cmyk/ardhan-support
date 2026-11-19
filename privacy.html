@@ -7,7 +7,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="index, follow">
-<title>Ardhan — Privacy Policy</title>
+<title>Ardhan: Privacy Policy</title>
 <style>
   :root {
     --bg: #fbfaf7; --text: #1f1d1a; --muted: #5d5850; --rule: #e2ddd3; --link: #1d5fa8;
@@ -39,8 +39,8 @@
 </head>
 <body>
 <main>
-<h1>Ardhan — Privacy Policy</h1>
-<p class="updated">Last updated: 16 November 2026</p>
+<h1>Ardhan: Privacy Policy</h1>
+<p class="updated">Last updated: 19 November 2026</p>
 <h2 id="1-who-i-am">1. Who I am</h2>
 <p>Ardhan is a card game, played mostly on your own, made and published by <strong>Ștefan Mihai Șerb</strong>, a private
   individual living in Romania ("I", "me"). For the small amount of personal data described in this
@@ -50,16 +50,20 @@
 </ul>
 <h2 id="2-the-short-version">2. The short version</h2>
 <ul>
-  <li>There is no login, no advertising, no analytics, no tracking and no crash reporting in the game.</li>
+  <li>There is no login, no ads in the game, no analytics and no crash reporting. The one exception is
+    ad measurement on Android: only if you allow it, the game tells TikTok and Meta that it was installed
+    and opened and when you buy something, so that I can see which of my ads work (section 5.6). The
+    iPhone, iPad, Steam and Microsoft Store versions send none of this.</li>
   <li>Your progress is saved on your device. The game has no cloud save of its own (for Steam Cloud, see
     section 4).</li>
   <li>The game goes online only to download optional content from GitHub, to check for updates of
     content you already downloaded, and to talk to the store you got the game from (Google Play, Steam,
     the App Store or the Microsoft Store) about the game's optional in-app purchases. If you choose to
-    play the optional Arena, it also talks to the Arena server (section 5.5).</li>
+    play the optional Arena, it also talks to the Arena server (section 5.5). On Android, if you allow ad
+    measurement, it also talks to TikTok and Meta (section 5.6).</li>
   <li>Outside the Arena, the game sends me nothing. I only receive what you send me yourself (for
-    example an e-mail), the sales reports the stores give me, and, if you play the Arena, your Arena
-    data (section 5.5).</li>
+    example an e-mail), the sales reports the stores give me, the ad reports TikTok and Meta give me
+    (only totals per ad; section 5.6) and, if you play the Arena, your Arena data (section 5.5).</li>
 </ul>
 <h2 id="3-where-this-policy-applies">3. Where this policy applies</h2>
 <p>This policy covers the game Ardhan everywhere I publish it:</p>
@@ -86,6 +90,9 @@
     number that the game itself makes up for each pack you buy or redeem, kept in a small file
     (msstore_packs.json) next to the save until the game has told the Microsoft Store that the pack was
     delivered. It is never part of a save code.</li>
+  <li><strong>On Android only</strong>: your answer to the ad measurement question (allow or don't
+    allow), when you gave it and which version of the question you saw, in a small file (ad_consent.cfg)
+    next to the save. It is not part of a save code, so another device asks again.</li>
   <li><strong>Optional packs</strong> you downloaded (see section 5).</li>
   <li><strong>Share cards</strong> you saved: a picture of a finished run with the faction, the result,
     the act reached, the run's seed and one line of text. It contains nothing about you or your device.
@@ -169,7 +176,8 @@
   technical information about how the purchase features work. GitHub handles this under the <a
   href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub
   General Privacy Statement</a>, and each store under its own policy (section 6). I do not receive your
-  IP address or any of these details.</p>
+  IP address or any of these details. The only case in which the game sends an advertising identifier
+  is the ad measurement on Android in section 5.6, and only if you allow it.</p>
 <h3 id="5-5-the-arena">5.5 The Arena (optional)</h3>
 <p>The Arena lets you battle decks that other players published, and lets them battle yours. It is
   optional: nothing below happens until you open the Arena. When you first do, the game creates an Arena
@@ -194,6 +202,53 @@
   ID, your published deck, your Arena match history, streaks and Legend ribbons, and any unclaimed Arena
   rewards, from my Arena server and from your device; your cards, decks, runs, gold and shards are not
   affected. If you cannot open the game, e-mail me your Arena ID and I will delete it for you.</p>
+<h3 id="5-6-ad-measurement-on-android">5.6 Ad measurement on Android (only if you allow it)</h3>
+<p>I advertise Ardhan on TikTok and on Meta's apps (Facebook, Instagram). To learn which of these ads
+  bring players, the Android version from Google Play contains a measurement component from each of
+  two companies:</p>
+<ul>
+  <li><strong>TikTok</strong>: the TikTok Business SDK, part of TikTok for Business;</li>
+  <li><strong>Meta</strong> (Meta Platforms, the company behind Facebook and Instagram): the Facebook
+    SDK.</li>
+</ul>
+<p><strong>Nothing is sent until you say yes.</strong> On a new install the game asks after you pick
+  your language; after an update it asks on the title screen. The question is "Can we measure which ads
+  brought you here?", with two buttons of the same size, "Don't allow" and "Allow". Until you tap Allow,
+  neither component starts and nothing is sent to TikTok or Meta. If you close the question without
+  answering, the game asks again at the next start. The game is the same whatever you answer, and there
+  is no reward either way.</p>
+<p><strong>What is sent if you allow it.</strong></p>
+<ul>
+  <li>that the game was installed, and when it is opened;</li>
+  <li>when you buy something in the game: which item, its price and the currency. Restoring a purchase
+    you already own sends nothing;</li>
+  <li>your device's advertising ID, an identifier that Android provides for advertising and that you can
+    reset or delete in your device's settings;</li>
+  <li>the technical details these components add to each message, such as the device model, the Android
+    version, the app version, the language and your IP address. If the Facebook app is installed on your
+    device, Meta's component may also read the attribution identifier the Facebook app keeps, so that
+    Meta can match an install to an ad you saw on Facebook.</li>
+</ul>
+<p>The game sends them no name, e-mail address, store account, location or contacts, and nothing about
+  your runs, cards or Arena.</p>
+<p><strong>Why.</strong> Only to count which ads lead to installs and purchases, so that I can stop
+  paying for ads that do not work. TikTok and Meta show me totals per ad (for example "40 installs from
+  this ad"), not who you are.</p>
+<p><strong>Who handles it.</strong> The data goes from your device straight to TikTok and Meta; I never
+  receive it. Each company handles it under its own privacy policy, which also says how long it keeps the data
+  and what else it may use it for: the <a href="https://www.tiktok.com/legal/privacy-policy">TikTok
+  Privacy Policy</a> and the <a href="https://www.facebook.com/privacy/policy/">Meta Privacy
+  Policy</a>. Both companies may process it outside the European Union, including in the United
+  States.</p>
+<p><strong>Switching it off.</strong> In the game, open Settings and, on the second page, switch "Ad
+  measurement (TikTok, Meta)" off. The game stops both components at once, and they do not start on
+  later launches. You can switch it on again in the same place. What was already sent stays with TikTok
+  and Meta; their privacy policies explain how to ask them to delete it. You can also reset or delete
+  your advertising ID in Android's settings. Uninstalling the game removes your answer, and a new
+  install asks again.</p>
+<p><strong>Other versions.</strong> The iPhone and iPad version, and the Windows and Linux versions on
+  Steam and the Microsoft Store, do not contain these components, do not ask the question and send none
+  of this.</p>
 <h2 id="6-purchases-and-the-stores">6. Purchases and the stores</h2>
 <ul>
   <li><strong>The same optional in-app purchases on every store</strong>: hero skins, faction looks, card
@@ -244,9 +299,12 @@
 <ul>
   <li><strong>Arena data.</strong> If you play the Arena, the data in section 5.5. I use it only to run
     the Arena.</li>
+  <li><strong>Ad reports.</strong> TikTok and Meta show me how many installs and purchases came from each
+    of my ads (section 5.6). These are totals; they do not show me who you are or your advertising
+    ID.</li>
 </ul>
-<p>I do not sell personal data, I do not use it for advertising, and I make no automated decisions or
-  profiles about anyone.</p>
+<p>I do not sell personal data, and I make no automated decisions or profiles about anyone. The only
+  use connected to advertising is the ad measurement in section 5.6, and only if you allow it.</p>
 <h2 id="8-why-this-is-allowed-legal-bases-under-the-gdpr">8. Why this is allowed (legal bases under the
   GDPR)</h2>
 <ul>
@@ -260,6 +318,8 @@
     and safe (Article 6(1)(f)).</li>
   <li>Update checks for packs you installed: my legitimate interest in keeping the content you chose
     complete and working (Article 6(1)(f)). You can object, or simply play offline.</li>
+  <li>Ad measurement on Android: your consent (Article 6(1)(a)), given with the Allow button. You can
+    withdraw it at any time in Settings (section 5.6); that does not affect what was sent before.</li>
 </ul>
 <h2 id="9-how-long-i-keep-it">9. How long I keep it</h2>
 <ul>
@@ -269,19 +329,30 @@
   <li>Store reports: as long as Romanian tax and accounting law requires.</li>
   <li>Arena data: while the Arena runs, or until you delete your Arena player in the game (or ask me to); the per-minute
     counters: one minute.</li>
+  <li>Ad measurement data: I do not keep it. TikTok and Meta keep it as their privacy policies describe,
+    and the ad reports I see hold totals only.</li>
   <li>Everything on your device: until you delete it (see section 4).</li>
 </ul>
 <h2 id="10-who-else-is-involved">10. Who else is involved</h2>
 <p>I do not share personal data with anyone, except that my e-mail provider stores my e-mails for me and
-  Cloudflare runs the Arena server for me (section 5.5).
-  The stores and GitHub act on their own account, under their own privacy policies (sections 5 and 6).
+  Cloudflare runs the Arena server for me (section 5.5). On Android, if you allow ad measurement, the
+  game sends the data in section 5.6 to TikTok and Meta.
+  The stores, GitHub, TikTok and Meta act on their own account, under their own privacy policies
+  (sections 5 and 6).
   Some of them, and possibly my e-mail provider, are based in, or process data in, the United States;
   their policies explain how they protect data sent outside the European Union.</p>
 <h2 id="11-permissions-and-backups">11. Permissions and backups</h2>
 <p><strong>Android permissions.</strong> INTERNET (downloads and Google Play), ACCESS_NETWORK_STATE (to
   see whether the device is online), com.android.vending.BILLING (Google Play purchases), and one
   technical permission that Android creates for the app itself
-  (…DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION), which gives access to nothing of yours. None of them lets
+  (…DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION), which gives access to nothing of yours. The ad
+  measurement components (section 5.6) add com.google.android.gms.permission.AD_ID (to read the
+  advertising ID), com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE (to ask
+  Google Play which link led to the install) and four permissions for Android's own ad services
+  (ACCESS_ADSERVICES_ATTRIBUTION, ACCESS_ADSERVICES_AD_ID, ACCESS_ADSERVICES_CUSTOM_AUDIENCE and
+  ACCESS_ADSERVICES_TOPICS), which Meta's component may use. The game can also see whether the Facebook
+  app is installed, so that Meta's component can read its attribution identifier. None of this is used
+  unless you allow ad measurement. None of these permissions lets
   the game read your contacts, location, photos, files, camera or microphone. On iPhone and iPad the
   game never asks for any of these either.</p>
 <p><strong>Backups.</strong> The Android version switches off Android's automatic backup
@@ -292,7 +363,9 @@
   the backup code in Settings.</p>
 <h2 id="12-children">12. Children</h2>
 <p>Ardhan is a fantasy card game with fantasy combat, made for players aged 13 and older. It is not
-  directed at children under 13. The game collects no personal data from anyone, children included.
+  directed at children under 13. Apart from the optional Arena (section 5.5) and, on Android, the ad
+  measurement that runs only if the player allows it (section 5.6), the game collects no personal data
+  from anyone, children included.
   Please do not send me personal data about a child. If you are a parent and believe your child sent me
   personal data, write to me and I will delete it.</p>
 <h2 id="13-your-rights">13. Your rights</h2>
@@ -301,7 +374,8 @@
   rights, write to <a href="mailto:contact@unitechdigital.net">contact@unitechdigital.net</a>. I will answer within one month.
   I may ask you to write from the same e-mail address, so that I know the request is yours.</p>
 <p>Most of what the game knows about you never leaves your device, so I cannot see, export or delete it
-  for you. You can delete it yourself (section 4).</p>
+  for you. You can delete it yourself (section 4). I do not hold the ad measurement data either; to
+  use your rights over it, contact TikTok or Meta (section 5.6), or write to me and I will help.</p>
 <p>You also have the right to complain to a data protection authority. In Romania this is the National
   Supervisory Authority for Personal Data Processing (ANSPDCP), 28-30 G-ral Gheorghe Magheru Blvd.,
   District 1, 010336 Bucharest, e-mail anspdcp@dataprotection.ro, <a
@@ -315,7 +389,7 @@
 <h2 id="15-contact">15. Contact</h2>
 <p>Ștefan Mihai Șerb, Romania. E-mail: <a href="mailto:contact@unitechdigital.net">contact@unitechdigital.net</a></p>
 
-<footer>Ardhan — Privacy Policy</footer>
+<footer>Ardhan: Privacy Policy</footer>
 </main>
 </body>
 </html>
