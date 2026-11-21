@@ -1,0 +1,43 @@
+COMUNICADO DE IMPRENSA
+
+Ardhan 1.0.4 traz as cartas vivas: as ilustrações das cartas deste deckbuilder gratuito já se mexem
+
+Cada uma das 462 ilustrações de cartas do jogo tem agora um movimento próprio de seis segundos. A atualização já está disponível para Android e PC, e o jogo chega em breve à App Store.
+
+21 de novembro de 2026
+
+O Ardhan, um roguelike de construção de baralho gratuito para um jogador, feito por uma só pessoa, Ștefan Mihai Șerb, recebe hoje a versão 1.0.4. A principal novidade são as cartas vivas. A imagem de cada carta pode agora fazer um movimento na direção do jogador, num ciclo de seis segundos. A Guarda de Patrulha crava a alabarda no chão e depois baixa-a na tua direção, e O Lobo Primordial salta contra o ecrã.
+
+Para dar vida a uma carta, é preciso tê-la e pagar com ouro da bolsa, na Coleção. O preço depende da raridade: 150 de ouro por uma carta comum, 300 por uma rara, 600 por uma épica, 1200 por uma lendária e 2000 por uma mítica. A carta viva mexe-se na mão e na Coleção. Depois de jogada, fica parada no tabuleiro, por isso a partida lê-se como antes. Cada carta pode ficar Viva ou Parada, e um só interruptor nas Definições desliga todas.
+
+Só muda o aspeto. Custo, ataque, vida e texto da carta mantêm-se, e uma carta viva tem exatamente a mesma força de uma parada. A versão 1.0.4 junta também todo o ouro numa só bolsa, partilhada por todos os jogos do jogador, e corrige duas falhas.
+
+No Ardhan, as batalhas decorrem num tabuleiro com lacaios, feitiços, poder de herói e curva de mana. Cada jogo atravessa mapas ramificados ao longo de seis atos, com um chefe no fim de cada um. Há 12 fações, 433 cartas colecionáveis e 72 relíquias, além de Ascensão 1-15, o modo Heroico e uma Arena online opcional. Interface, legendas e narração existem em nove línguas, incluindo o português europeu.
+
+O Ardhan é gratuito. A loja vende artigos cosméticos e moeda, e cada compra mostra o que dá antes de se pagar. Não há caixas de recompensas nem prémios aleatórios pagos.
+
+A versão 1.0.4 já pode ser transferida gratuitamente no Google Play (Android), na Steam (Windows e Linux) e na Microsoft Store (Windows). As versões para iPhone, iPad e Mac aguardam a revisão da Apple e chegam à App Store nos próximos dias.
+
+Vídeos, um GIF e capturas de ecrã das cartas vivas: https://serbstefan-cmyk.github.io/ardhan-support/presskit/
+
+
+SOBRE O ARDHAN
+
+Género: roguelike de construção de baralho para um jogador
+Desenvolvimento e edição: Ștefan Mihai Șerb (uma só pessoa)
+Plataformas: Android, Windows, Linux; iPhone, iPad e Mac em breve
+Preço: gratuito; a loja vende cosméticos e moeda, sem caixas de recompensas
+Conteúdo: 12 fações, 433 cartas colecionáveis, 72 relíquias, 6 atos, Ascensão 1-15, modo Heroico, Arena online opcional
+Línguas (interface, legendas e voz): inglês, espanhol, polaco, francês, português (Brasil e Portugal), alemão, japonês, italiano
+
+Google Play: https://play.google.com/store/apps/details?id=com.unitechdigital.ardhan
+Steam: https://store.steampowered.com/app/5391500
+Microsoft Store: https://apps.microsoft.com/detail/9NHQ8P3417S5
+Apoio e licenças: https://serbstefan-cmyk.github.io/ardhan-support/
+
+(c) 2026 Ștefan Mihai Șerb. All rights reserved.
+
+
+CONTACTO PARA A IMPRENSA
+
+Ștefan Mihai Șerb, contact@unitechdigital.net

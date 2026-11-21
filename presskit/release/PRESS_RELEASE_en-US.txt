@@ -1,0 +1,43 @@
+FOR IMMEDIATE RELEASE
+
+Ardhan 1.0.4 adds living cards: every card picture in the free deckbuilder can now move
+
+Each of the game's 462 card pictures acts out its own six-second move. The update is out now for Android and PC, and the game comes to the App Store soon.
+
+November 21, 2026
+
+Ardhan, a free single-player roguelike deckbuilder made by one developer, Ștefan Mihai Șerb, has a new update, version 1.0.4. Its main addition is living cards. Every card picture in the game can now act out one move toward the player, on a six-second loop: the Patrol Guard plants his halberd and lowers it at you, and the Ur-Wolf lunges out at the screen.
+
+Players bring a card they own to life in the Collection, paying with gold from their purse. The price depends on rarity: 150 gold for a common card, 300 for a rare, 600 for an epic, 1,200 for a legendary and 2,000 for a mythic. A living card moves in the hand and in the Collection. Once it is played, it stays still on the board, so a battle reads the same as before. Each card can be set to Living or Still, and a single switch in Settings turns all of them off.
+
+Living cards change the look and nothing else. Cost, attack, health and card text stay the same, so a living card is exactly as strong as a still one. The update also moves all gold into one purse shared by every game a player starts, and it fixes two crashes.
+
+In Ardhan, battles are fought on a board with minions, spells, hero powers and a mana curve. Each run crosses branching maps, and every one of the six acts ends with a boss. The game has 12 factions, 433 collectible cards and 72 relics, plus Ascension levels 1 to 15, a Heroic mode and an optional online Arena. The game is translated into nine languages, with voice narration in all of them.
+
+Ardhan is free to play. The shop sells cosmetics and currency, and every purchase shows what it gives before you pay. There are no loot boxes and no paid random rewards.
+
+Version 1.0.4 is available now, free, on Google Play for Android, on Steam for Windows and Linux, and on the Microsoft Store for Windows. Versions for Apple devices (iPhone, iPad, Mac) are waiting for Apple's review and will reach the App Store in the coming days.
+
+Videos, a GIF and screenshots of living cards: https://serbstefan-cmyk.github.io/ardhan-support/presskit/
+
+
+ABOUT ARDHAN
+
+Genre: single-player roguelike deckbuilder
+Developer and publisher: Ștefan Mihai Șerb (one person)
+Platforms: Android, Windows, Linux; iPhone, iPad, Mac (coming soon)
+Price: free to play; the shop sells cosmetics and currency, no loot boxes
+Content: 12 factions, 433 collectible cards, 72 relics, 6 acts, Ascension 1-15, Heroic mode, optional online Arena
+Languages (interface, subtitles and voice): English, Spanish, Polish, French, Portuguese (Brazil and Portugal), German, Japanese, Italian
+
+Google Play: https://play.google.com/store/apps/details?id=com.unitechdigital.ardhan
+Steam: https://store.steampowered.com/app/5391500
+Microsoft Store: https://apps.microsoft.com/detail/9NHQ8P3417S5
+Support and licences: https://serbstefan-cmyk.github.io/ardhan-support/
+
+(c) 2026 Ștefan Mihai Șerb. All rights reserved.
+
+
+PRESS CONTACT
+
+Ștefan Mihai Șerb, contact@unitechdigital.net
